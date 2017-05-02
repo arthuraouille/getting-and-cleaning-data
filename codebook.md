@@ -1,14 +1,14 @@
-==================================================================
+---
 Human Activity Recognition Using Smartphones Dataset
 Version 1.1 - tidied by Arthur Aouillé
-==================================================================
+---
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universita degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
-activityrecognition@smartlab.ws
-www.smartlab.ws
-==================================================================
+[activityrecognition@smartlab.ws](mailto:activityrecognition@smartlab.ws)
+[www.smartlab.ws](www.smartlab.ws)
+---
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -25,7 +25,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 ##### The dataset includes the following files:
 
 - **tidyDataset1.txt**: shows measurements of mean and standard deviation for each measurement in the original dataset (train and test data combined). The file is tidy, contains intelligible variables and well-organized observations.
-- **tidyDataset2.txt**: shows the mean of those measurements by activity (Walking, Laying...) and subject (1 -> 30). The file is tidy, contains intelligible variables and well-organized observations.
+- **tidyDataset2.txt**: shows mean of those measurements by activity (Walking, Laying...) and subject (1 -> 30). The file is tidy, contains intelligible variables and well-organized observations.
 
 ##### Feature Selection 
 
