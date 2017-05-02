@@ -1,13 +1,12 @@
+##### Human Activity Recognition Using Smartphones Dataset
+##### Version 1.1 - tidied by Arthur Aouillé
 ---
-Human Activity Recognition Using Smartphones Dataset
-Version 1.1 - tidied by Arthur Aouillé
----
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universita degli Studi di Genova.
-Via Opera Pia 11A, I-16145, Genoa, Italy.
-[activityrecognition@smartlab.ws](mailto:activityrecognition@smartlab.ws)
-[www.smartlab.ws](www.smartlab.ws)
+##### Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+##### Smartlab - Non Linear Complex Systems Laboratory
+##### DITEN - Universita degli Studi di Genova.
+##### Via Opera Pia 11A, I-16145, Genoa, Italy.
+- [activityrecognition@smartlab.ws](mailto:activityrecognition@smartlab.ws)
+- [www.smartlab.ws](www.smartlab.ws)
 ---
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
@@ -68,25 +67,27 @@ tBodyAccJerkMean | timeBodyAccelerationJerkMean
 tBodyGyroMean | timeBodyGyroscopeMean
 tBodyGyroJerkMean | timeBodyGyroscopeJerkMean
 
-The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation - **unused in our tidy datasets**
-max(): Largest value in array - **unused in our tidy datasets**
-min(): Smallest value in array - **unused in our tidy datasets**
-sma(): Signal magnitude area - **unused in our tidy datasets**
-energy(): Energy measure. Sum of the squares divided by the number of values.  - **unused in our tidy datasets**
-iqr(): Interquartile range - **unused in our tidy datasets** 
-entropy(): Signal entropy - **unused in our tidy datasets**
-arCoeff(): Autorregresion coefficients with Burg order equal to 4 - **unused in our tidy datasets**
-correlation(): correlation coefficient between two signals - **unused in our tidy datasets**
-maxInds(): index of the frequency component with largest magnitude - **unused in our tidy datasets**
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency - **unused in our tidy datasets**
-skewness(): skewness of the frequency domain signal  - **unused in our tidy datasets**
-kurtosis(): kurtosis of the frequency domain signal  - **unused in our tidy datasets**
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window. - **unused in our tidy datasets**
-angle(): Angle between to vectors. - **unused in our tidy datasets**
+
+The set of variables that were estimated from these signals are |
+------------ |
+mean(): Mean value |
+std(): Standard deviation |
+mad(): Median absolute deviation - **unused in our tidy datasets** |
+max(): Largest value in array - **unused in our tidy datasets** |
+min(): Smallest value in array - **unused in our tidy datasets** |
+sma(): Signal magnitude area - **unused in our tidy datasets** |
+energy(): Energy measure. Sum of the squares divided by the number of values.  - **unused in our tidy datasets** |
+iqr(): Interquartile range - **unused in our tidy datasets**  |
+entropy(): Signal entropy - **unused in our tidy datasets** |
+arCoeff(): Autorregresion coefficients with Burg order equal to 4 - **unused in our tidy datasets** |
+correlation(): correlation coefficient between two signals - **unused in our tidy datasets** |
+maxInds(): index of the frequency component with largest magnitude - **unused in our tidy datasets** |
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency - **unused in our tidy datasets** |
+skewness(): skewness of the frequency domain signal  - **unused in our tidy datasets** |
+kurtosis(): kurtosis of the frequency domain signal  - **unused in our tidy datasets** |
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window. - **unused in our tidy datasets** |
+angle(): Angle between to vectors. - **unused in our tidy datasets** |
 
 
 ##### Notes: 
